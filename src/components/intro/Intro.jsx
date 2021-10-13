@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { init } from 'ityped';
 
+import Me from '../../img/amit_adobespark.png';
 import './Intro.css';
 
 const Intro = () => {
@@ -37,14 +38,16 @@ const Intro = () => {
           <div className="i-desc">
             Marketing and Sales executive with 16+ years of experience.
             Passionate about Marketing, Customer Service, Branding, and Business
-            Strategy.
+            Strategy. And, Full-stack developer by hobby with knowledge of
+            Python, JavaScript, Django, Django REST Framework, React, SQL,
+            HTML5, CSS3, MySQL, Docker, Adobe XD and Photoshop.
           </div>
         </div>
       </div>
       <div className="i-right">
         <div className="i-bg"></div>
         <div className="i-bg2"></div>
-        <div className="i-img"></div>
+        <img src={Me} alt="Amit Bhalla" className="i-img" />
       </div>
        
     </div>
